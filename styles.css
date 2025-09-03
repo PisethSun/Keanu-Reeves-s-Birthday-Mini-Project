@@ -1,0 +1,100 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#ff1b6b, #45caff);
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#bff-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #ffc300;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #2ec4b6;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #9d4edd;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-Jwcar {
+    height: 200px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 500px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+}
+
+#gift-img-happy-dance:hover {
+    background-image: url("images/happydance.gif");
+    background-size: cover;
+}
+
+#gift-img-Parabellum:hover {
+    background-image: url("images/Parabellum.gif");
+     margin-left: 300pxS;
+   
+}
+
+
+
+
+#gift-img-epic:hover {
+    background-image: url("images/epic.gif");
+}
+
+#gift-img-badass:hover {
+    background-image: url("images/badass.gif");
+}
+
+#gift-img-Jwcar:hover {
+    background-image: url("images/JWcar.gif");
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
+
